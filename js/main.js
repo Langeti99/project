@@ -32,7 +32,7 @@ function rememberMyFilms(){
       }
    }
 }
-rememberMyFilms();
+// rememberMyFilms();
 
 function detectedPersonalLevel(){
    if(personalMovieDB.count < 10){
@@ -45,7 +45,7 @@ function detectedPersonalLevel(){
       console.log('Щось пішло не так!');
    }
 }
-detectedPersonalLevel();
+// detectedPersonalLevel();
 
 function showMyDB(hidden){
    if(!hidden){
