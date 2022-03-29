@@ -39,8 +39,8 @@ const personalMovieDB = {
          console.log('Щось пішло не так!');
       }
    },
-   showMyDB: function(hidden){
-      if(!hidden){
+   showMyDB: function(){
+      if(!personalMovieDB.privat){
          console.log(personalMovieDB);
       }
    },
