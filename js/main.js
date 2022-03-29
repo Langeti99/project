@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const personalMovieDB = {
    count: 0,
@@ -61,3 +61,21 @@ const personalMovieDB = {
       }
    }
 };
+
+const block = document.createElement('button');
+block.classList.add('box');
+block.textContent = 'Нажми мене!';
+document.body.append(block);
+
+
+let i = 0;
+const del = e => {
+   block.textContent = 'Zalupa';
+   console.log(e);
+};
+
+block.addEventListener('click', del);
+
+// block.innerHTML = '<h2>hello bitch</h2>';
+
+// block.insertAdjacentHTML('afterend','<h2>Ukrain win!</h2>');
